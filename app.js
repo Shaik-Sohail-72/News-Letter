@@ -34,7 +34,7 @@ app.post("/",function(req,res)
     const url=process.env.URL_AND_UNIQUE_ID;  
     const options={
         method:"POST",
-        auth:STRING_AND_API_KEY          
+        auth:process.env.STRING_AND_API_KEY          
     }
     const request = https.request(url,options,function(response)
     {
