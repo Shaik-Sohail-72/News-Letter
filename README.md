@@ -3,6 +3,7 @@ Newsletter signup webapp integration with MailChimp.
 
 Signed users gets sent to our list on MailChimp using API, and all of that data gets added into our list as new subscriber gets added.
 
+
 So that means we can go ahead and send our newsletters, or email campaigns, to our subscribers,
 and this list will build up as more and more people subscribe to your newsletter.
 
